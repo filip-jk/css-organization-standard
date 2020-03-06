@@ -4,7 +4,8 @@ CSS Organization Standard is an opinionated CSS properties ordering.
 
 ## General Rules
 
-1. 
+1. Properties group separation (with an empty line) is not always required. We recommend separation when there are more than 4 properties.
+2. Clockwise order: top, right, bottom, left.
 
 ## Basic Overview
 
@@ -78,6 +79,6 @@ TO-DO
 
 ## Sources
 
-https://9elements.com/css-rule-order/
-https://github.com/brandon-rhodes/Concentric-CSS
-https://github.com/necolas/idiomatic-css#declaration-order
+1. https://9elements.com/css-rule-order/
+2. https://github.com/brandon-rhodes/Concentric-CSS
+3. https://github.com/necolas/idiomatic-css#declaration-order
