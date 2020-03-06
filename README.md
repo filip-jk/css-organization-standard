@@ -21,7 +21,7 @@ CSS Organization Standard is an opinionated CSS properties ordering.
   right: ;
   bottom: ;
   left: ;
-  [flex properties]
+  flex: ; /* and other flex properties */
   float: ;
   clear: ;
   
