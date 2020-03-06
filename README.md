@@ -77,6 +77,10 @@ CSS Organization Standard is an opinionated CSS properties ordering.
 
 TO-DO
 
+## Examples
+
+TO-DO
+
 ## Sources
 
 1. https://9elements.com/css-rule-order/
