@@ -11,18 +11,25 @@ CSS Organization Standard is an opinionated CSS properties ordering.
 
 ```css
 .class {
+  /* Mixins */
+  @include xyz();
+  
   /* Generated Content */
   content: ;
   
-  /* Display, position & layout */
+  /* Display */
   display: ;
+  
+  /* Position */
   position: ;
   z-index: ;
   top: ;
   right: ;
   bottom: ;
   left: ;
-  flex: ; /* and other flex properties */
+  
+  /* Layout, flex/grid properties */
+  flex: ;
   float: ;
   clear: ;
   
@@ -39,16 +46,20 @@ CSS Organization Standard is an opinionated CSS properties ordering.
   
   /* Box Model, from outside to inside */
   box-sizing: ;
-  margin: ;
-  box-shadow: ;
   outline: ;
+  box-shadow: ;
+  margin: ;
   border: ;
   border-radius: ;
   padding: ;
+  
+  /* Width & height */
   width: ;
   max-width: ;
   height: ;
   max-height: ;
+  
+  /* Overflow */
   overflow: ;
   
   /* Background & Cursor */
